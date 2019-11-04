@@ -1,3 +1,1 @@
-provider "heroku" {
-  
-}
+provider "heroku" {}
