@@ -1,7 +1,2 @@
 language: java
 
-install: 
-script: 
-- "./build.sh"
-env:
-  global:
