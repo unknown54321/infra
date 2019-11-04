@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0488e9d-149b-441c-87cb-61b515eb4d5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dominiInfra.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/provider.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline.tf" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline.tf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +15,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pipeline.tf">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -39,13 +38,18 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.terraform/plugins/darwin_amd64/terraform-provider-heroku_v2.2.1_x4">
+          <provider selected="true" editor-type-id="LargeFileEditor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -77,9 +81,9 @@
       <list>
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/build.sh" />
-        <option value="$PROJECT_DIR$/pipeline.tf" />
         <option value="$PROJECT_DIR$/main.tf" />
         <option value="$PROJECT_DIR$/provider.tf" />
+        <option value="$PROJECT_DIR$/pipeline.tf" />
       </list>
     </option>
   </component>
@@ -160,12 +164,12 @@
       <option name="presentableId" value="Default" />
       <updated>1572904698065</updated>
       <workItem from="1572904699804" duration="1549000" />
-      <workItem from="1572906296090" duration="1470000" />
+      <workItem from="1572906296090" duration="2215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3019000" />
+    <option name="totallyTimeSpent" value="3764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="99" y="23" width="1166" height="714" extended-state="0" />
@@ -209,9 +213,6 @@
     <entry file="file://$PROJECT_DIR$/build.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pipeline.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -222,6 +223,19 @@
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.terraform/plugins/darwin_amd64/terraform-provider-heroku_v2.2.1_x4">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -229,13 +243,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider.tf">
+    <entry file="file://$PROJECT_DIR$/pipeline.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
