@@ -11,12 +11,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="99" />
     <option name="y" value="23" />
     <option name="width" value="1166" />
     <option name="height" value="714" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -66,12 +70,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572904698065</updated>
-      <workItem from="1572904699804" duration="298000" />
+      <workItem from="1572904699804" duration="617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298000" />
+    <option name="totallyTimeSpent" value="617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="99" y="23" width="1166" height="714" extended-state="0" />
