@@ -1,4 +1,4 @@
-resource "heroku_pipeline" "geiger-deploy" {
+resource "heroku_pipeline" "geiger-app" {
   name = "${var.name}"
 }
 

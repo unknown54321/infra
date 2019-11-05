@@ -1,4 +1,4 @@
-resource "heroku_app" "staging" {
+resource "heroku-app" "staging" {
   name = "${var.name}-staging"
   region = "${var.region}"
   buildpacks = "${var.buildpacks}"
