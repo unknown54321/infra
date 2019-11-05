@@ -2,6 +2,7 @@ terraform {
   backend "s3" {
   bucket = "pgr301geigerteller"
   key = "unknown54321/terraform.tfstate"
+  region = "eu-north-1"
   }
 }
 

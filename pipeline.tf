@@ -1,19 +1,21 @@
-resource "heroku-app" "ci" {
-  name = "${var.app.prefix}-app-ci"
+resource "heroku_pipeline" "deploy" {
+  name = "${var.heroku-pipeline-name}"
 }
 
-resource "heroku_pipeline" "geiger-app" {
-  name = "${var.name}"
+resource "heroku_pipeline_coupling" "deploy" {
+  app = "${heroku_app.deploy.name}"
+  pipeline = "heroku_pipeline.deploy.id"
+  stage = "staging"
 }
 
 resource "heroku_pipeline_coupling" "staging" {
   app = "${heroku_app.staging.name}"
-  pipeline = "heroku_pipeline.geiger-deploy.id"
+  pipeline = "heroku_pipeline.pipeline.id"
   stage = "staging"
 }
 
 resource "heroku_pipeline_coupling" "production" {
   app = "${heroku_app.production.name}"
-  pipleine = "${heroku_pipeline.geiger_deploy.id}"
+  pipleine = "${heroku_pipeline.id}"
   stage= "production"
 }
