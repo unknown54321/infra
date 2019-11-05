@@ -4,7 +4,7 @@ resource "opsgenie_schedule_rotation" "testing" {
   start_date = "2019-11-1T18:50:00Z"
   end_date = "2019-12-20T18:00:00Z"
   type = "hourly"
-  lengeth = 8
+  length = 8
 
 
 participant {
