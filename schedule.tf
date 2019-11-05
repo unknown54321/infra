@@ -1,6 +1,7 @@
-resource "opsgenie_schedule" "testing" {
-  name        = "genieschedules"
-  description = "schedule test"
+resource "opsgenie_schedule" "schedule" {
+  name        = "gegerteller"
+  description = "schedule test for measurements"
   timezone    = "Europe/Oslo"
-  enabled     = true
+  enabled = false
+  owner_team_id = "${opsgenie_team.geigerteam.id}"
 }
