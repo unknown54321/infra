@@ -1,3 +1,7 @@
+resource "heroku-app" "ci" {
+  name = "${var.app.prefix}-app-ci"
+}
+
 resource "heroku_pipeline" "geiger-app" {
   name = "${var.name}"
 }
